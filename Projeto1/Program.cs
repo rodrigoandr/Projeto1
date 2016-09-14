@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Base;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,11 @@ namespace Projeto1
     {
         static void Main(string[] args)
         {
+            Pessoa p = new Pessoa();
+
+            Console.Write(p.Nome +" "+ p.Sobrenome);
+
+            Console.Read();
         }
     }
 }
